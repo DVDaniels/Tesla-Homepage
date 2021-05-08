@@ -1,0 +1,131 @@
+/* Universal Styles */
+
+html {
+    background: url('../images/tesla_model_s.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Styles */
+
+#container {
+    margin: auto;
+    width: 1300px;
+}
+
+#logo img {
+    width: 150px;
+    float: left;
+    position: absolute;
+}
+
+#left-nav-buttons {
+    float: left;
+    margin-left: 205px;
+}
+
+#right-nav-buttons {
+    margin-left: 805px;
+    font-size: 0.8em;
+}
+
+.nav-button {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.nav-button1 {
+    color: #ffffff;
+    background-color: #424242;
+    text-decoration: none;
+    margin-left: 15px;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: 2px solid transparent;
+}
+
+.nav-button1:hover {
+    border: 2px solid #ec1c23;
+}
+
+/* Body Styles */
+
+#content {
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#content #banner {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+
+#marketing-content {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#line-1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#line-2 {
+    font-size: 0.9em;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 40px;
+    max-width: 30px;
+    border: 1px solid transparent;
+}
+
+#buttons a {
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.button:hover {
+    border: 1px solid #ffffff;
+}
+
+/* Footer Syles */
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 1300px;
+    height: 30px;
+    text-align: center;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 00.8em;
+}
+
+#flag {
+    width: 20px;
+    margin-bottom: -3px;
+}
