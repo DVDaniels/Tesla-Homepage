@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-    background: url('https://github.com/DVDaniels/Tesla-Homepage/blob/master/images/Tesla_Model_S.jpg') no-repeat center center fixed;
+    background: url('../../images/Tesla_Model_S.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
