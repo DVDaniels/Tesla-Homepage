@@ -33,26 +33,18 @@ html {
 #logo img {
     width: 150px;
     padding-bottom: .5rem;
-    /* float: left;
-    position: absolute; */
 }
 
 #left-nav-buttons {
     padding-bottom: 1rem;
-    /* float: left;
-    margin-left: 205px; */
 }
 
 #left-nav-buttons a:hover {
     color: red;
-    /* float: left;
-    margin-left: 205px; */
 }
 
 #right-nav-buttons {
     padding-bottom: .5rem;
-    /* margin-left: 805px;
-    font-size: 0.8em; */
 }
 
 .nav-button {
@@ -114,13 +106,12 @@ html {
 }
 
 .button {
-    margin-left: 20px;
-    margin-right: 20px;
     background-color: #000000;
     color: #ffffff;
     padding: 10px 40px;
     max-width: 30px;
     border: 1px solid transparent;
+    border-radius: 3rem;
 }
 
 #buttons a {
@@ -139,7 +130,7 @@ html {
     align-items: center;
     display: flex;
     bottom: 0px;
-    width: 1300px;
+    width: auto;
     height: 30px;
     text-align: center;
     padding-bottom: 1rem;
@@ -155,4 +146,50 @@ html {
 #flag {
     width: 20px;
     margin-bottom: -3px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+
+  #leftNavBar {
+      height: 10rem;
+      margin-top: 0;
+  }
+
+  #left-nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #right-nav-buttons {
+   font-size: .5rem;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+  }
+
+  #content {
+      width: 100%;
+      height: auto;
+      background-color: rgba(0,0,0, .70);
+  }
+
+  #marketing-content {
+      background-color: rgba(0,0,0, .70);
+  }
+
+  #buttons {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .button {
+      display: none;
+  }
+
+  #footer {
+      background-color: rgba(0,0,0, .70);
+  }
 }
