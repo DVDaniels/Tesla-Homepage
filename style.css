@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-    background: url('../images/tesla_model_s.jpg') no-repeat center center fixed;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/6/63/Tesla_Model_S_DCA_08_2018_0283_trimmed.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -155,10 +155,4 @@ html {
 #flag {
     width: 20px;
     margin-bottom: -3px;
-}
-
-@media screen and (max-width: 400px) {
-    #buttons {
-       flex-direction: column;
-    }
 }
