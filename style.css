@@ -6,29 +6,53 @@ html {
     -moz-background-size: cover;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
+    background-color: rgba(0,0,0, .70);
 }
 
 /* Header Styles */
 
 #container {
     margin: auto;
-    width: 1300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#leftNavBar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(0,0,0, .70);
+    padding: 1rem;
 }
 
 #logo img {
     width: 150px;
-    float: left;
-    position: absolute;
+    padding-bottom: .5rem;
+    /* float: left;
+    position: absolute; */
 }
 
 #left-nav-buttons {
-    float: left;
-    margin-left: 205px;
+    padding-bottom: 1rem;
+    /* float: left;
+    margin-left: 205px; */
+}
+
+#left-nav-buttons a:hover {
+    color: red;
+    /* float: left;
+    margin-left: 205px; */
 }
 
 #right-nav-buttons {
-    margin-left: 805px;
-    font-size: 0.8em;
+    padding-bottom: .5rem;
+    /* margin-left: 805px;
+    font-size: 0.8em; */
 }
 
 .nav-button {
@@ -112,10 +136,13 @@ html {
 
 #footer {
     position: absolute;
+    align-items: center;
+    display: flex;
     bottom: 0px;
     width: 1300px;
     height: 30px;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 .footer-link {
@@ -128,4 +155,10 @@ html {
 #flag {
     width: 20px;
     margin-bottom: -3px;
+}
+
+@media screen and (max-width: 400px) {
+    #buttons {
+       flex-direction: column;
+    }
 }
