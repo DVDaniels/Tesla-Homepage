@@ -11,6 +11,12 @@ html {
 
 /* Header Styles */
 
+#header {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+}
+
 #leftNavBar {
     display: flex;
     flex-direction: column;
@@ -20,6 +26,9 @@ html {
     align-content: center;
     background-color: rgba(0,0,0, .70);
     padding: 1rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #logo img {
@@ -42,18 +51,19 @@ html {
 .nav-button {
     color: #ffffff;
     text-decoration: none;
-    margin-left: 25px;
+    padding: .5rem;
 }
 
 .nav-button1 {
     color: #ffffff;
     background-color: #424242;
+    border: 2px solid rgb(52, 52, 52);
     text-decoration: none;
     margin-left: 15px;
     justify-content: center;
     padding: 5px 10px;
     border-radius: 2px;
-    border: 2px solid transparent;
+    /* border: 2px solid transparent; */
 }
 
 .nav-button1:hover {
@@ -131,16 +141,29 @@ html {
     font-size: 00.8em;
 }
 
+.footer-link:hover {
+    color: #ec1c23;
+}
+
 #flag {
     width: 20px;
     margin-bottom: -3px;
 }
 
 #copyright a {
-    font-size: 00.8em;
+    font-size: 1em;
     margin-top: 1.5rem;
     color: #ffffff;
     text-decoration: none;
+}
+
+#copyright p {
+    color: #ffffff;
+    font-size: inherit;
+}
+
+#copyright a:hover {
+    color: #ec1c23;
 }
 
 /* Media Queries */
@@ -178,22 +201,27 @@ html {
     background-color: rgba(0,0,0, .70);
 }
 
+#banner {
+    margin: 1rem auto 0rem auto;
+}
+
 #marketing-content {
-    background-color: rgba(0,0,0, .70);
-    margin-top: 0px;
+    background-color: rgba(0,0,0, .30);
+    margin: 0px auto;
+    padding: 1rem;
     width: fit-content;
 }
 
 #buttons {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .button {
     font-size: .5rem;
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
     width: auto;
 }
 
